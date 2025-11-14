@@ -12,8 +12,8 @@ const Blogs = () => {
 				</Link>
 			</div>
 			<div className='flex flex-col gap-4'>
-				<BlogCard />
-				<BlogCard />
+				<BlogCard style=''/>
+				<BlogCard style=''/>
 			</div>
 		</div>
 	);

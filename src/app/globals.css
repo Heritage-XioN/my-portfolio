@@ -2,6 +2,7 @@
 @plugin "daisyui" {
 	themes: light --default, dark --prefersdark, synthwave;
 }
+@custom-variant dark (&:where([dark-theme="dark"],[dark-theme="dark"]*));
 
 :root {
 	--background: #ffffff;

@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Geist, Geist_Mono, IBM_Plex_Sans } from 'next/font/google';
 import './globals.css';
 import Navbar from '@/components/molecules/navbar';
+import Footer from '@/components/molecules/footer';
 
 
 const ibmPlexSans = IBM_Plex_Sans({
@@ -30,7 +31,7 @@ export default function RootLayout({
 	children: React.ReactNode;
 }>) {
 	return (
-		<html lang='en'>
+		<html lang='en' dark-theme='dark'>
 			<body
 				className={`${geistSans.variable} ${geistMono.variable} ${ibmPlexSans.variable}antialiased`}
 			>
@@ -38,6 +39,7 @@ export default function RootLayout({
 				<div className='grow md:overflow-y-auto w-full min-h-screen py-8 font-ibm text-textColor'>
 					{children}
 				</div>
+				<Footer />
 			</body>
 		</html>
 	);

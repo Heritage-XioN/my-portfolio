@@ -1,8 +1,11 @@
 import React from 'react';
+interface blogCard {
+    style: string
+}
 
-const BlogCard = () => {
+const BlogCard = ({style}: blogCard) => {
 	return (
-		<div className='bg-background px-4 py-2 w-full rounded'>
+		<div className={`bg-background px-4 py-2 w-full rounded ${style}`}>
 			<h1 className='text-[19px] font-black pb-1.5 leading-7'>
 				Header of a post just testing
 			</h1>

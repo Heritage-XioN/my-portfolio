@@ -14,7 +14,7 @@ const Root = () => {
 			</div>
 			<Blogs />
 			<Projects />
-			<Footer />
+			
 		</div>
 	);
 };

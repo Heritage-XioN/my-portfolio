@@ -33,7 +33,7 @@ export default function RootLayout({
 			<body
 				className={`${geistSans.variable} ${geistMono.variable} ${ibmPlexSans.variable}antialiased`}
 			>
-				<div className='grow md:overflow-y-auto w-full ml-52 min-h-screen px-24 py-8'>
+				<div className='grow md:overflow-y-auto w-full min-h-screen py-8 font-ibm text-textColor'>
 					{children}
 				</div>
 			</body>

@@ -1,9 +1,7 @@
-import React from 'react';
 import About from '../molecules/about';
 import ImageConatiner from '../molecules/imageCont';
 import Blogs from '../molecules/blogs';
 import Projects from '../molecules/projects';
-import Footer from '../molecules/footer';
 
 const Root = () => {
 	return (
@@ -14,7 +12,6 @@ const Root = () => {
 			</div>
 			<Blogs />
 			<Projects />
-			
 		</div>
 	);
 };

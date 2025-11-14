@@ -11,12 +11,12 @@ const Projects = () => {
 					View all
 				</Link>
 			</div>
-            <div className="flex flex-col gap-4">
-                <ProjectsCard />
-                <ProjectsCard />
-                <ProjectsCard />
-                <ProjectsCard />
-            </div>
+			<div className='flex flex-col gap-4'>
+				<ProjectsCard imageStyle='' cardStyles='border-b' />
+				<ProjectsCard imageStyle='' cardStyles='border-b' />
+				<ProjectsCard imageStyle='' cardStyles='border-b' />
+				<ProjectsCard imageStyle='' cardStyles='border-b' />
+			</div>
 		</div>
 	);
 }

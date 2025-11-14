@@ -1,9 +1,14 @@
 import React from 'react'
 
-const ProjectsCard = () => {
-  return (
-		<div className='border-b'>
-			<div className='h-52 w-full bg-red-400 mb-4'></div>
+interface blogCard {
+	imageStyle: string;
+    cardStyles: string;
+}
+
+const ProjectsCard = ({ imageStyle, cardStyles }: blogCard) => {
+	return (
+		<div className={`${cardStyles}`}>
+			<div className={`h-52 w-full bg-red-400 mb-4 ${imageStyle}`}></div>
 			<div className=''>
 				<h1 className='text-[19px] font-black pb-1.5 leading-7'>
 					Header of a post just testing
@@ -20,6 +25,6 @@ const ProjectsCard = () => {
 			</div>
 		</div>
 	);
-}
+};
 
 export default ProjectsCard

@@ -1,6 +1,5 @@
 import BlogCard from '@/components/atom/blogCard';
-import Link from 'next/link';
-import React from 'react'
+
 
 const Page = () => {
   return (

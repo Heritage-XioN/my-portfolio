@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { Geist, Geist_Mono, IBM_Plex_Sans } from 'next/font/google';
 import './globals.css';
+import Navbar from '@/components/molecules/navbar';
 
 
 const ibmPlexSans = IBM_Plex_Sans({
@@ -33,6 +34,7 @@ export default function RootLayout({
 			<body
 				className={`${geistSans.variable} ${geistMono.variable} ${ibmPlexSans.variable}antialiased`}
 			>
+				<Navbar />
 				<div className='grow md:overflow-y-auto w-full min-h-screen py-8 font-ibm text-textColor'>
 					{children}
 				</div>

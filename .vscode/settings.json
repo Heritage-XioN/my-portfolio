@@ -1,0 +1,11 @@
+{
+	"editor.fontSize": 16,
+	"files.autoSave": "afterDelay",
+	"files.autoSaveWhenNoErrors": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"tailwindCSS.suggestions": true,
+	"editor.formatOnSave": true,
+	"editor.formatOnPaste": true,
+	"typescript.suggest.includeCompletionsForImportStatements": true,
+	"typescript.suggest.enabled": true
+}

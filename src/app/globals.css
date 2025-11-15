@@ -9,6 +9,8 @@
 	--foreground: #171717;
 	--textColor: #2b283a;
 	--paddingSm: 2rem;
+	--paddingmd: 5rem;
+	--paddinglg: 5rem;
 }
 
 @theme inline {
@@ -16,6 +18,8 @@
 	--color-foreground: var(--foreground);
 	--color-textColor: var(--textColor);
 	--spacing-paddingSm: var(--paddingSm);
+	--spacing-paddingmd: var(--paddingmd);
+	--spacing-paddinglg: var(--paddinglg);
 	--font-sans: var(--font-geist-sans);
 	--font-mono: var(--font-geist-mono);
 	--font-ibm: var(--font-IBM_PLEX-sans);

@@ -1,9 +1,10 @@
 import Link from "next/link";
 import { GiHamburgerMenu } from "react-icons/gi";
+import Navlink from "../atom/navlink";
 
 const Navbar = () => {
   return (
-		<div className='fixed w-full z-50'>
+		<div className='fixed w-full z-50 md:hidden'>
 			<div className='navbar bg-base-100 px-4'>
 				<div className='navbar-start w-[13%]'>
 					<div className='dropdown'>
@@ -19,13 +20,16 @@ const Navbar = () => {
 							className='menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow'
 						>
 							<li>
-								<a>Homepage</a>
+								<Navlink url='/' display='Home' />
 							</li>
 							<li>
-								<a>Portfolio</a>
+								<Navlink url='/projects' display='Projects' />
 							</li>
 							<li>
-								<a>About</a>
+								<Navlink url='/blog' display='Blog' />
+							</li>
+							<li>
+								<Navlink url='/contact' display='Contact' />
 							</li>
 						</ul>
 					</div>

@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const ImageConatiner = () => {
   return (
-		<div className='avatar w-60 mb-8'>
+		<div className='avatar w-60 mb-8 lg:w-68'>
 			<div className='rounded-full'>
 				<Image
 					className='border-'

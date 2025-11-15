@@ -6,7 +6,7 @@ import Projects from '../molecules/projects';
 const Root = () => {
 	return (
 		<div className='flex flex-col justify-center items-center'>
-			<div className='flex flex-col-reverse justify-center items-center md:flex-row p-paddingSm'>
+			<div className='flex flex-col-reverse justify-center items-center p-paddingSm md:px-paddingmd lg:px-36 lg:flex-row lg:justify-between'>
 				<About />
 				<ImageConatiner />
 			</div>

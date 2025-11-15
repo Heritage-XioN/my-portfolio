@@ -1,7 +1,4 @@
-type paths = [{
-    url: string;
-    display: string;
-}]
+
 
 const linkPaths = [
      {

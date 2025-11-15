@@ -1,9 +1,9 @@
-import React from 'react'
-import Navlink from '../atom/navlink'
+import React from 'react';
+import Navlink from '../atom/navlink';
 
 const MdNav = () => {
-  return (
-		<div className='hidden md:flex flex-row-reverse w-full content-end items-end p-2'>
+	return (
+		<div className='hidden md:flex flex-row-reverse w-full py-3 px-8'>
 			<div className='flex-none'>
 				<input
 					type='checkbox'
@@ -11,7 +11,7 @@ const MdNav = () => {
 				/>
 			</div>
 			<div className='px-4 mr-2'>
-				<ul className='flex gap-4'>
+				<ul className='flex gap-6'>
 					<li>
 						<Navlink url='/' display='Home' />
 					</li>
@@ -28,6 +28,6 @@ const MdNav = () => {
 			</div>
 		</div>
 	);
-}
+};
 
-export default MdNav
+export default MdNav;

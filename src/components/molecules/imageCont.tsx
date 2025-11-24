@@ -7,7 +7,9 @@ const ImageConatiner = () => {
 			<div className='rounded-full'>
 				<Image
 					className='border-'
-					src={'/Screenshot 2025-11-10 015949.png'}
+					src={
+						'https://res.cloudinary.com/ddg2pxgz0/image/upload/v1763986777/optimized-image_b0pi9c.webp'
+					}
 					height={300}
 					width={300}
 					alt='add later'

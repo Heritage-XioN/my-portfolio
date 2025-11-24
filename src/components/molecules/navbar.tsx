@@ -28,9 +28,6 @@ const Navbar = () => {
 							<li>
 								<Navlink url='/blog' display='Blog' />
 							</li>
-							<li>
-								<Navlink url='/contact' display='Contact' />
-							</li>
 						</ul>
 					</div>
 				</div>
